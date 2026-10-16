@@ -1,0 +1,17 @@
+seed: 42
+
+device:
+  prefer_cuda: true
+
+training:
+  epochs: 100
+  batch_size: 64
+  learning_rate: 0.001
+  early_stopping_patience: 10
+
+sequence:
+  sequence_length: 30
+
+evaluation:
+  primary_metric: roc_auc
+  report_compute_benchmarks: true

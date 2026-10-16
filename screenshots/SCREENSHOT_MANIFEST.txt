@@ -1,0 +1,12 @@
+PROJECT 13 - FINAL EVIDENCE SCREENSHOTS
+
+01_cp1_traditional_baselines.png | CP1 | Traditional ML baselines | Shows the successful Bank Marketing, HAR and Cora training/validation run, recorded validation macro-F1 values, and the sealed-test reminder.
+02_cp2_neural_sequence_training.png | CP2 | Neural and sequence training | Shows MLP, LSTM and Transformer validation-only training, selected model results, and completion of the CP2 run.
+03_cp3_graph_training_and_ablation.png | CP3 | Graph model training and ablation | Shows GCN and GraphSAGE validation runs, the selected GCN, and the graph-edge removal experiment.
+04_cp4_selection_lock_preflight.png | CP4 | Pre-final-test lock | Shows successful regression/dependency checks, report lineage validation, and the pre-final-test selection lock before test labels were unlocked.
+05_cp4_one_time_final_test.png | CP4 | One-time held-out evaluation | Shows the one-time locked final-test command and completed evaluation of all eight predeclared models across the three datasets.
+06_final_dashboard_bank_har.png | Final evidence dashboard | Bank and HAR | Shows the dashboard header, final-test caution, Bank Marketing PR-AUC results, and HAR Macro-F1 comparison.
+07_final_dashboard_cora_limitations.png | Final evidence dashboard | Cora and limitations | Shows the complete Cora comparison and documented restrictions on interpreting the experiments, including transductive graph visibility and single-seed evidence.
+08_cp4_security_audit_pass.png | CP4 | Automated security audit | Shows the successful security-audit regression tests and working-tree filename check; explicitly notes that manual secrets and data-license reviews remain required.
+
+Review sensitive local paths before public publication. Manual secrets/license review and GitHub CI remain pending.
